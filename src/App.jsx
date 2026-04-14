@@ -1,6 +1,7 @@
 import "./App.css";
 import Hero from "./Components/Hero/Hero";
 import NavBar from "./Components/NavBar/NavBar";
+import Pricing from "./Components/Pricing/Pricing";
 import ProductCard from "./Components/ProductCards/ProductCard";
 import Stats from "./Components/Stats/Stats";
 import Steps from "./Components/Steps/Steps";
@@ -14,6 +15,7 @@ function App() {
       <Stats></Stats>
       <ProductCard productPromise={productPromise}></ProductCard>
       <Steps></Steps>
+      <Pricing></Pricing>
     </>
   );
 }

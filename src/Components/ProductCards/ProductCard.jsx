@@ -35,7 +35,7 @@ const ProductCard = ({ productPromise }) => {
       </div>
       <div>
         {view === "product" ? (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 items-stretch p-10">
             {/* product cards section */}
             {productData.map((product, index) => (
               <Product

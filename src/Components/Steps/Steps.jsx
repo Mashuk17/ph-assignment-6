@@ -1,10 +1,10 @@
-import { User } from "lucide-react";
+import { Box, Rocket, User } from "lucide-react";
 
 const Steps = () => {
   return (
     <div className="my-10 bg-base-200 py-10">
       <div>
-        <h1 className="text-5xl font-bold text-center mt-10">
+        <h1 className="text-5xl font-bold text-center ">
           Get Started in 3 Steps
         </h1>
         <p className="text-black/50 text-center mt-3">
@@ -33,7 +33,7 @@ const Steps = () => {
             </p>
           </div>
 
-          <User className="badge badge-primary badge-soft rounded-full h-15 w-15"></User>
+          <Box className="badge badge-primary badge-soft rounded-full h-15 w-15"></Box>
           <h2 className="text-l font-bold">Choose Products</h2>
           <p className="text-black/50 text-sm text-center">
             Browse our catalog and select the tools that fit your needs.
@@ -46,7 +46,7 @@ const Steps = () => {
             </p>
           </div>
 
-          <User className="badge badge-primary badge-soft rounded-full h-15 w-15"></User>
+          <Rocket className="badge badge-primary badge-soft rounded-full h-15 w-15"></Rocket>
           <h2 className="text-l font-bold">Start Creating</h2>
           <p className="text-black/50 text-sm text-center">
             Download and start using your premium  tools immediately.
