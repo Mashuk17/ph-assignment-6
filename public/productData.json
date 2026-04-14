@@ -1,0 +1,130 @@
+[
+  {
+    "id": 1,
+    "name": "Starter Resume Kit",
+    "description": "Perfect for beginners to create professional resumes easily.",
+    "price": 9,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "New",
+    "features": [
+      "50+ resume templates",
+      "ATS-friendly formats",
+      "Export to PDF",
+      "Basic customization"
+    ],
+    "icon": "📄"
+  },
+  {
+    "id": 2,
+    "name": "Pro Resume Builder",
+    "description": "Advanced resume builder with premium templates and tools.",
+    "price": 19,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": [
+      "150+ premium templates",
+      "AI resume suggestions",
+      "ATS optimization",
+      "Unlimited downloads"
+    ],
+    "icon": "🚀"
+  },
+  {
+    "id": 3,
+    "name": "Portfolio Website Kit",
+    "description": "Build your personal portfolio website quickly.",
+    "price": 29,
+    "period": "one-time",
+    "tag": "best",
+    "tagType": "Best Seller",
+    "features": [
+      "10+ portfolio layouts",
+      "Responsive design",
+      "SEO optimized",
+      "Easy deployment guide"
+    ],
+    "icon": "🌐"
+  },
+  {
+    "id": 4,
+    "name": "LinkedIn Optimization Pack",
+    "description": "Improve your LinkedIn profile to attract recruiters.",
+    "price": 12,
+    "period": "one-time",
+    "tag": "new",
+    "tagType": "New",
+    "features": [
+      "Profile headline generator",
+      "Summary writing guide",
+      "Keyword optimization",
+      "Recruiter visibility tips"
+    ],
+    "icon": "💼"
+  },
+  {
+    "id": 5,
+    "name": "Job Hunter Toolkit",
+    "description": "Complete toolkit for job seekers.",
+    "price": 25,
+    "period": "monthly",
+    "tag": "popular",
+    "tagType": "Popular",
+    "features": [
+      "Resume builder access",
+      "Cover letter templates",
+      "Interview questions",
+      "Job tracking dashboard"
+    ],
+    "icon": "🎯"
+  },
+  {
+    "id": 6,
+    "name": "Freelancer Starter Pack",
+    "description": "Everything you need to start freelancing.",
+    "price": 15,
+    "period": "one-time",
+    "tag": "best",
+    "tagType": "Best Seller",
+    "features": [
+      "Proposal templates",
+      "Client communication scripts",
+      "Pricing guide",
+      "Portfolio tips"
+    ],
+    "icon": "💻"
+  },
+  {
+    "id": 7,
+    "name": "AI Career Assistant",
+    "description": "AI-powered assistant to guide your career growth.",
+    "price": 30,
+    "period": "monthly",
+    "tag": "new",
+    "tagType": "New",
+    "features": [
+      "AI resume feedback",
+      "Career roadmap suggestions",
+      "Skill gap analysis",
+      "Job match scoring"
+    ],
+    "icon": "🤖"
+  },
+  {
+    "id": 8,
+    "name": "Ultimate Career Bundle",
+    "description": "All-in-one package for serious job seekers.",
+    "price": 49,
+    "period": "yearly",
+    "tag": "best",
+    "tagType": "Best Seller",
+    "features": [
+      "All tools included",
+      "Priority support",
+      "Exclusive templates",
+      "Lifetime updates"
+    ],
+    "icon": "🏆"
+  }
+]

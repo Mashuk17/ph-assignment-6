@@ -4,7 +4,7 @@ const Hero = () => {
     <div className="flex mx-12 my-10 justify-between items-center">
       <div className="space-y-5">
         <div>
-          <div className="badge badge-soft badge-primary">
+          <div className="badge badge-soft badge-primary rounded-2xl">
             New: AI-Powered Tools Available
           </div>
           <h1 className="text-5xl font-bold mt-5">
