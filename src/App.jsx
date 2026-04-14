@@ -3,6 +3,7 @@ import Hero from "./Components/Hero/Hero";
 import NavBar from "./Components/NavBar/NavBar";
 import ProductCard from "./Components/ProductCards/ProductCard";
 import Stats from "./Components/Stats/Stats";
+import Steps from "./Components/Steps/Steps";
 const productPromise = fetch("productData.json").then((res) => res.json());
 // console.log(productPromise);
 function App() {
@@ -12,6 +13,7 @@ function App() {
       <Hero></Hero>
       <Stats></Stats>
       <ProductCard productPromise={productPromise}></ProductCard>
+      <Steps></Steps>
     </>
   );
 }
