@@ -1,4 +1,5 @@
 import "./App.css";
+import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
 import NavBar from "./Components/NavBar/NavBar";
 import Pricing from "./Components/Pricing/Pricing";
@@ -18,6 +19,7 @@ function App() {
       <Steps></Steps>
       <Pricing></Pricing>
       <Workflow></Workflow>
+      <Footer></Footer>
     </>
   );
 }
