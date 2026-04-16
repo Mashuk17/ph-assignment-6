@@ -1,7 +1,8 @@
 import { Check } from "lucide-react";
-
-const Product = ({ product, handleCart }) => {
+const Product = ({ product, handleCart, cart }) => {
   //   console.log(product);
+  const isAdded = !!cart.find((c) => c.id === product.id);
+  console.log(isAdded);
   return (
     <div>
       <div className="card  bg-base-100 shadow-sm h-full ">
@@ -35,8 +36,9 @@ const Product = ({ product, handleCart }) => {
             <button
               onClick={() => handleCart(product)}
               className="btn btn-primary btn-block rounded-3xl"
+              disabled={isAdded}
             >
-              Buy Now
+              {isAdded ? "Added to cart" : "Buy now"}
             </button>
           </div>
         </div>

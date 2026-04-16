@@ -8,6 +8,7 @@ const Cart = ({ cart, setCart }) => {
     const updatdCart = [];
     setCart(updatdCart);
   };
+
   //   console.log(setCart);
   return (
     <div>

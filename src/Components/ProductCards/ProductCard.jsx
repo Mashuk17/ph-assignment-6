@@ -42,6 +42,7 @@ const ProductCard = ({ productPromise, cart, setCart }) => {
                 key={index}
                 product={product}
                 handleCart={handleCart}
+                cart={cart}
               ></Product>
             ))}
           </div>
