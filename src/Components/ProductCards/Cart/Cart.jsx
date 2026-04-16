@@ -22,24 +22,26 @@ const Cart = ({ cart, setCart }) => {
           <p>No item added in the Cart</p>
         ) : (
           cart.map((item) => (
-            <div className="flex justify-between mt-5 p-4 rounded-xl  bg-base-200">
-              <div className="flex gap-2 items-center">
-                <div>
-                  <p>{item.icon}</p>
+            <div>
+              <div className="flex justify-between mt-5 p-4 rounded-xl  bg-base-200">
+                <div className="flex gap-2 items-center">
+                  <div>
+                    <p>{item.icon}</p>
+                  </div>
+                  <div>
+                    <h1 className="font-bold">{item.name}</h1>
+                    <p className="text-black/50">${item.price}</p>
+                  </div>
                 </div>
-                <div>
-                  <h1 className="font-bold">{item.name}</h1>
-                  <p className="text-black/50">${item.price}</p>
-                </div>
-              </div>
 
-              <div>
-                <button
-                  onClick={() => handleRemove(item)}
-                  className="btn btn-ghost text-red-500"
-                >
-                  Remove
-                </button>
+                <div>
+                  <button
+                    onClick={() => handleRemove(item)}
+                    className="btn btn-ghost text-red-500"
+                  >
+                    Remove
+                  </button>
+                </div>
               </div>
             </div>
           ))
