@@ -1,4 +1,6 @@
 import { use, useState } from "react";
+
+import { toast } from "react-toastify";
 import Cart from "./Cart/Cart";
 import Product from "./Product/Product";
 
@@ -8,6 +10,7 @@ const ProductCard = ({ productPromise, cart, setCart }) => {
 
   const handleCart = (product) => {
     setCart([...cart, product]);
+    toast(`${product.name} is added to cart`);
   };
   return (
     <div>

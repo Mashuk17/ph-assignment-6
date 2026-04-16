@@ -2,7 +2,7 @@ import { Check } from "lucide-react";
 const Product = ({ product, handleCart, cart }) => {
   //   console.log(product);
   const isAdded = !!cart.find((c) => c.id === product.id);
-  console.log(isAdded);
+  // console.log(isAdded);
   return (
     <div>
       <div className="card  bg-base-100 shadow-sm h-full ">
@@ -24,8 +24,8 @@ const Product = ({ product, handleCart, cart }) => {
           {/* cards features */}
           <div>
             <ul className="mt-6 flex flex-col gap-2 text-xs">
-              {product.features.map((feature) => (
-                <li className="flex items-center gap-1">
+              {product.features.map((feature, index) => (
+                <li key={index} className="flex items-center gap-1">
                   <Check></Check>
                   <span>{feature}</span>
                 </li>

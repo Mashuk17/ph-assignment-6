@@ -1,12 +1,16 @@
+import { toast } from "react-toastify";
+
 const Cart = ({ cart, setCart }) => {
   const handleRemove = (item) => {
     const updatedCart = cart.filter((p) => p.id !== item.id);
     setCart(updatedCart);
+    toast(`${item.name} removed from cart`);
   };
   const total = cart.reduce((sum, item) => sum + item.price, 0);
   const handleCheckout = () => {
     const updatdCart = [];
     setCart(updatdCart);
+    toast("Proceed to checkout");
   };
 
   //   console.log(setCart);
