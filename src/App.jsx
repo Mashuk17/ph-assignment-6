@@ -1,3 +1,4 @@
+import { useState } from "react";
 import "./App.css";
 import Footer from "./Components/Footer/Footer";
 import Hero from "./Components/Hero/Hero";
@@ -10,12 +11,17 @@ import Workflow from "./Components/Workflow/Workflow";
 const productPromise = fetch("productData.json").then((res) => res.json());
 // console.log(productPromise);
 function App() {
+  const [cart, setCart] = useState([]);
   return (
     <>
-      <NavBar></NavBar>
+      <NavBar cart={cart}></NavBar>
       <Hero></Hero>
       <Stats></Stats>
-      <ProductCard productPromise={productPromise}></ProductCard>
+      <ProductCard
+        cart={cart}
+        setCart={setCart}
+        productPromise={productPromise}
+      ></ProductCard>
       <Steps></Steps>
       <Pricing></Pricing>
       <Workflow></Workflow>

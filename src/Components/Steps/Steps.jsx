@@ -12,7 +12,7 @@ const Steps = () => {
         </p>
       </div>
       {/* cards section */}
-      <div className="grid grid-cols-3 gap-4 mx-12 mt-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mx-12 mt-5">
         <div className="flex flex-col justify-between items-center bg-white p-5 rounded-2xl space-y-3">
           <div className="ml-auto">
             <p className="bg-[#4F39F6] text-white h-10 w-10 items-center flex justify-center rounded-full">
@@ -49,7 +49,7 @@ const Steps = () => {
           <Rocket className="badge badge-primary badge-soft rounded-full h-15 w-15"></Rocket>
           <h2 className="text-l font-bold">Start Creating</h2>
           <p className="text-black/50 text-sm text-center">
-            Download and start using your premium  tools immediately.
+            Download and start using your premium tools immediately.
           </p>
         </div>
       </div>

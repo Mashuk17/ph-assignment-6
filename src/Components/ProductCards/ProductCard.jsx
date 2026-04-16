@@ -2,10 +2,10 @@ import { use, useState } from "react";
 import Cart from "./Cart/Cart";
 import Product from "./Product/Product";
 
-const ProductCard = ({ productPromise }) => {
+const ProductCard = ({ productPromise, cart, setCart }) => {
   const productData = use(productPromise);
   const [view, setView] = useState("product");
-  const [cart, setCart] = useState([]);
+
   const handleCart = (product) => {
     setCart([...cart, product]);
   };
