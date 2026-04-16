@@ -12,7 +12,7 @@ const Pricing = () => {
         </p>
       </div>
       {/* card container */}
-      <div className="grid grid-cols-3 gap-5 mt-10">
+      <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-5 mt-10">
         <div className="bg-base-200 p-6 rounded-2xl space-y-1 flex flex-col ">
           <h2 className="font-bold text-xl">Starter</h2>
           <p className=" text-black/50 mb-3">Perfect for getting started</p>
